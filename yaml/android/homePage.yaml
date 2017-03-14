@@ -1,0 +1,27 @@
+---
+  - name: image
+    element-info: com.laoyuegou.android:id/iv_logo
+    element-type: id
+    describe: '捞月狗图标'
+  - name: login
+    element-info: com.laoyuegou.android:id/btn_login
+    element-type: id
+    describe: '登陆按钮'
+  - name: register
+    element-info: com.laoyuegou.android:id/btn_regist
+    element-type: id
+    describe: '注册按钮'
+  - name: wechat
+    element-info: com.laoyuegou.android:id/weixinBtn
+    element-type: id
+    describe: '第三方登陆微信'
+  - name: qq
+    element-info: com.laoyuegou.android:id/QQBtn
+    element-info: id
+    describe: '第三方登陆qq'
+  - name: weibo
+    element-info: com.laoyuegou.android:id/weiboBtn
+    element-info: id
+    describe: '第三方登录微博'
+
+

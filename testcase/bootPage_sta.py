@@ -5,19 +5,26 @@ sys.path.append('../models');
 sys.path.append('../page_obj');
 from page_obj.bootPage import bootPage;
 from models.myunit import myTest;
+from models.operateYaml import getYam;
 from selenium.webdriver.support.ui import WebDriverWait;
 from selenium.webdriver.support import expected_conditions as EC;
 from selenium.webdriver.common.by import By;
 
+PATH = lambda p: os.path.abspath(
+    os.path.join(os.path.dirname(os.path.dirname(__file__)), p)
+)
+def get_devices():
+    return getYam(PATH("yaml/android/bootPage.yaml"))
+ga = get_devices()
+
 class bootPage_Test(myTest):
 	'''引导页测试'''
-	firstPage = ('xpath',"//android.support.v4.view.ViewPager/android.widget.ImageView[@index='0']");
-	secondPage = ('xpath',"//android.support.v4.view.ViewPager/android.widget.ImageView[@index='1']");
-	points = ('xpath','//android.widget.LinearLayout/android.widget.ImageView');
-	button =('id','com.laoyuegou.android:id/guide_end_button');
-	login = ('id','com.laoyuegou.android:id/btn_login');
+	firstPage = (ga[0].get('element-type'),ga[0].get('element-info'))
+	secondPage = (ga[1].get('element-type'),ga[1].get('element-info'))
+	points = (ga[2].get('element-type'),ga[2].get('element-info'))	
+	button = (ga[3].get('element-type'),ga[3].get('element-info'))
+	login =  (ga[4].get('element-type'),ga[4].get('element-info'))
 
-	
 	def test_a_open_fristPage(self):
 		'''引导页打开第一页'''			
 		WebDriverWait(self.driver,20).until(EC.visibility_of_element_located((By.CLASS_NAME,'android.widget.ImageView')))			

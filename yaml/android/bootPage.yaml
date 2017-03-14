@@ -1,0 +1,22 @@
+---
+  - name: firstPage
+    element-info: //android.support.v4.view.ViewPager/android.widget.ImageView[@index='0']
+    element-type: xpath
+    describe: '第一页'
+  - name: secondPage
+    element-info: //android.support.v4.view.ViewPager/android.widget.ImageView[@index='1']
+    element-type: xpath
+    describe: '第二页'
+  - name: switchPoint
+    element-info: //android.widget.LinearLayout/android.widget.ImageView
+    element-type: xpath
+    describe: '切换图标'
+  - name: button
+    element-info: com.laoyuegou.android:id/guide_end_button
+    element-type: id
+    describe: '立即体验按钮'
+  - name: login
+    element-info: com.laoyuegou.android:id/btn_login
+    element-type: id
+    describe: '登录按钮'
+
