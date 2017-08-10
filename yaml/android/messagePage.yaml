@@ -1,0 +1,5 @@
+---
+  - name: page
+    element-info: com.laoyuegou.android:id/rn_mv_root_view
+    element-type: id
+    describe: '首界面'

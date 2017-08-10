@@ -1,10 +1,7 @@
 appium:
-  - devices: emulator-5554
+  - devices: fca3c494
     port: 4723
-    config:
+    config: appium -a 127.0.0.1 -p 4723 -bp 4566 -U fca3c494 
     platformName: android
-  - devices:
-    port: 4724
-    config: 
-    platformName: android
-    
+    version: 5.1.1
+    devicesName: coopad

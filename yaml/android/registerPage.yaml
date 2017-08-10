@@ -1,0 +1,5 @@
+---
+  - name: register_page
+    element-info: com.laoyuegou.android:id/other_register_layout
+    element-type: id
+    describe: '注册界面'

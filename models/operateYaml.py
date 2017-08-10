@@ -8,7 +8,7 @@ def getYam(homeyaml):
 		x = yaml.load(f)		
 		return x
 	except IOError:
-		print "yaml file not found"
+		print "yaml file not found %s"%homeyaml
 
 
 

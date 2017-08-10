@@ -1,0 +1,95 @@
+---
+  - name: return
+    element-info: com.laoyuegou.android:id/iv_title_left
+    element-type: id
+    describe: '返回按钮'
+  - name: title
+    element-info: com.laoyuegou.android:id/txt_title
+    element-type: id
+    describe: '标题' 
+  - name: skip
+    element-info: com.laoyuegou.android:id/txt_title_right
+    element-type: id
+    describe: '跳过'
+  - name: game-yxlm
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='1']
+    element-type: xpath
+    describe: '英雄联盟'
+  - name: game-dota2
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='2']
+    element-type: xpath
+    describe: 'dota2'
+  - name: game-swxf
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='3']
+    element-type: xpath
+    describe: '守望先锋'
+  - name: game-300
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='4']
+    element-type: xpath
+    describe: '300英雄'
+  - name: game-cs
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='5']
+    element-type: xpath
+    describe: 'cs go'
+  - name: game-lscs
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='6']
+    element-type: xpath
+    describe: '炉石传说'
+  - name: game-mssj
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='10']
+    element-type: xpath
+    describe: '魔兽世界'
+  - name: game-ah3
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='11']
+    element-type: xpath
+    describe: '暗黑3'
+  - name: game-tksj
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='12']
+    element-type: xpath
+    describe: '坦克世界'
+  - name: game-lqyx
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='13']
+    element-type: xpath
+    describe: '洛奇英雄传'
+  - name: game-wzry
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='5']
+    element-type: xpath
+    describe: '王者荣耀'
+  - name: game-blct
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='6']
+    element-type: xpath
+    describe: '部落冲突'
+  - name: game-hszz
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='7']
+    element-type: xpath
+    describe: '皇室战争'
+  - name: game-steam
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='10']
+    element-type: xpath
+    describe: 'steam'
+  - name: game-psn
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='11']
+    element-type: xpath
+    describe: 'psn'
+  - name: game-xbox
+    element-info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[@index='12']
+    element-type: xpath
+    describe: 'xbox'
+  - name: game-gname
+    element-info: com.laoyuegou.android:id/game_name_ed
+    element-type: id
+    describe: '输入游戏名字'
+  - name: game-submit
+    element-info: com.laoyuegou.android:id/submitBtn
+    element-type: id
+    describe: '提交'
+  - name: game-page
+    element-info: com.laoyuegou.android:id/game_bg
+    element-type: id
+    describe: '游戏页面'
+  - name: register_page
+    element-info: com.laoyuegou.android:id/other_register_layout
+    element-type: id
+    describe: '注册界面'
+
+

@@ -17,11 +17,23 @@
     describe: '第三方登陆微信'
   - name: qq
     element-info: com.laoyuegou.android:id/QQBtn
-    element-info: id
+    element-type: id
     describe: '第三方登陆qq'
   - name: weibo
     element-info: com.laoyuegou.android:id/weiboBtn
-    element-info: id
+    element-type: id
     describe: '第三方登录微博'
+  - name: login-Page
+    element-info: com.laoyuegou.android:id/login_root_layout
+    element-type: id
+    describe: '登录界面'
+  - name: homeregister-Page
+    element-info: com.laoyuegou.android:id/login_regist_sub
+    element-type: id
+    describe: '登录注册界面'
+  - name: game-switch
+    element-info: android:id/content
+    element-type: id
+    describe: '注册--游戏选择界面'
 
 

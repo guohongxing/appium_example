@@ -1,0 +1,63 @@
+---
+  - name: title
+    element-info: com.laoyuegou.android:id/txt_title
+    element-type: id
+    describe: '登录页面标题 选择国家地区标题'
+  - name: return-Button
+    element-info: com.laoyuegou.android:id/iv_title_left
+    element-type: id
+    describe: '返回按钮'
+  - name: phone-image
+    element-info: com.laoyuegou.android:id/icon_phone
+    element-type: id
+    describe: '手机图标'  
+  - name: code
+    element-info: com.laoyuegou.android:id/country_code
+    element-type: id
+    describe: '区域标签'
+  - name: icon-select
+    element-info: com.laoyuegou.android:id/icon_select_country
+    element-type: id
+    describe: '下拉按钮'
+  - name: username
+    element-info: com.laoyuegou.android:id/username_edittext
+    element-type: id
+    describe: '输入账户栏'
+  - name: finish-Button
+    element-info: com.laoyuegou.android:id/finish_button
+    element-type: id
+    describe: '下一步按钮 登录进入捞月狗按钮'  
+  - name: loginPage-img
+    element-info: com.laoyuegou.android:id/iv_login
+    element-type: id
+    describe: '登录界面图标'
+  - name: prompt-box
+    element-info: com.laoyuegou.android:id/dialog_title
+    element-type: id
+    describe: '提示框'
+  - name: password
+    element-info: com.laoyuegou.android:id/password_edittext
+    element-type: id
+    describe: '输入密码栏'
+  - name: suggest_cancel
+    element-info: com.laoyuegou.android:id/dialog_left_button
+    element-type: id
+    describe: '提示框-取消按钮'
+  - name: suggest_register
+    element-info: com.laoyuegou.android:id/dialog_right_button
+    element-type: id
+    describe: '提示框-去注册按钮'
+  - name: input_password
+    element-info: com.laoyuegou.android:id/password_edittext
+    element-type: id
+    describe: '密码输入栏'
+  - name: fp_button
+    element-info: com.laoyuegou.android:id/forget_password_button
+    element-type: id
+    describe: '忘记密码按钮'
+  - name: fp_page
+    element-info: com.laoyuegou.android:id/reset_root_layout
+    element-type: id
+    describe: '忘记密码页面'
+ 
+

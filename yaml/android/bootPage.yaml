@@ -16,7 +16,7 @@
     element-type: id
     describe: '立即体验按钮'
   - name: login
-    element-info: com.laoyuegou.android:id/btn_login
+    element-info: com.laoyuegou.android:id/login_regist_sub
     element-type: id
-    describe: '登录按钮'
+    describe: '登录注册界面'
 
